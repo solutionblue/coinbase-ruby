@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'coinbase/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "coinbase"
+  gem.name          = "pxcoinbase"
   gem.version       = Coinbase::VERSION
   gem.authors       = ["Brian Armstrong"]
   gem.email         = [""]
-  gem.description   = ["Wrapper for the Coinbase Oauth2 API"]
-  gem.summary       = ["Wrapper for the Coinbase Oauth2 API"]
+  gem.description   = ["SSL fixed wrapper for the Coinbase Oauth2 API"]
+  gem.summary       = ["SSL fixed wrapper for the Coinbase Oauth2 API"]
   gem.homepage      = "https://coinbase.com/api/doc"
 
   gem.files         = `git ls-files`.split($/)
