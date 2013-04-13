@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'coinbase/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "pxcoinbase"
+  gem.name          = "coinbase"
   gem.version       = Coinbase::VERSION
   gem.authors       = ["Brian Armstrong"]
   gem.email         = [""]
